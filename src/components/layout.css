@@ -23,9 +23,7 @@ body {
 
 .bgsatu {
   background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-}
-.bgdua {
-  background:linear-gradient(90deg, rgba(122,63,188,1) 0%, rgba(205,52,124,1) 50%, rgba(252,29,31,1) 100%);
+  padding-top: 9rem;
 }
 .htext {
   display: flex;
@@ -33,7 +31,14 @@ body {
   text-align: left;
   justify-content: center;
 }
-p, .btn {
+p, .btn, a {
   font-size: min(max(14px, 4vw),16px);
   font-weight: 300;
+}
+.biru {
+  background: #f8f9fa;
+  color: black;
+}
+.show {
+  background: #f8f9fa;
 }

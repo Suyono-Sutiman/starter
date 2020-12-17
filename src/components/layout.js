@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className='bgsatu'>
+    <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
         <main>{children}</main>
@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
           <a href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
       </div>
-    </div>
+    </>
   )
 }
 

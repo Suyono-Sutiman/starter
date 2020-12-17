@@ -5,7 +5,8 @@ import {Navbar, Nav, NavDropdown } from 'react-bootstrap'
 
 const Header = ({ siteTitle }) => (
     <Navbar collapseOnSelect expand="lg"
-            variant="dark"
+            bg='light'
+            variant="light"
             sticky='top' >
       <Link to='/'>
       <Navbar.Brand><h1>{siteTitle}</h1></Navbar.Brand>
