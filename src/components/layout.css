@@ -30,6 +30,7 @@ body {
   flex-direction: column;
   text-align: left;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 p, .btn, a {
   font-size: min(max(14px, 4vw),16px);
@@ -41,4 +42,9 @@ p, .btn, a {
 }
 .show {
   background: #f8f9fa;
+  border-radius: 15px;
+  padding-bottom: 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }

@@ -1,10 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
-import {Navbar, Nav, NavDropdown } from 'react-bootstrap'
-
-const garis = {
-  borderBottom: '0.5px solid rgba(248, 249, 250, 0.5)',
-}
+import {Navbar, Nav, Button} from 'react-bootstrap'
+import realine from '../images/realine.svg'
 
 class Head2 extends React.Component {
     state={className:''};
@@ -28,33 +25,32 @@ class Head2 extends React.Component {
         return (
             <Navbar collapseOnSelect expand="lg"
             fixed='top'
-            style={garis}
-            className={this.state.className} >
+            className={this.state.className}>
             <Link to='/'>
             <Navbar.Brand>
-                <h1>Realine</h1>
+                <img
+                alt=""
+                src={realine}
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+                />{' '}
+                Realine
             </Navbar.Brand>
             </Link>
-            
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className='ml-auto'>
-                <Nav.Link href="#features">Features</Nav.Link>
-                <Nav.Link href="#pricing">Pricing</Nav.Link>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                </NavDropdown>
+                <Nav className='mr-auto'>
+                <Nav.Link>Development</Nav.Link>
+                <Nav.Link>Marketing</Nav.Link>
+                <Nav.Link >SEO</Nav.Link>
+                <Nav.Link>Portfolio</Nav.Link>
                 </Nav>
-                <Nav>
-                <Nav.Link href="#deets">More deets</Nav.Link>
-                <Nav.Link eventKey={2} href="#memes">
-                    Dank memes
-                </Nav.Link>
-                </Nav>
+                <Link to='/page-2'>
+                <Button variant='primary'>
+                    Hubungi Kami
+                </Button>
+                </Link>
             </Navbar.Collapse>
             </Navbar>
         )
