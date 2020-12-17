@@ -4,7 +4,6 @@ module.exports = {
     description: `Front-end Developer from Indonesia`,
     author: `Suyono`,
   },
-  pathPrefix: "/starter",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -32,4 +31,7 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+}
+module.exports = {
+  pathPrefix: "/starter",
 }
