@@ -48,3 +48,6 @@ p, .btn, a {
 .navbar-light .navbar-nav .nav-link {
   color: black;
 }
+.container {
+  padding-top: 4rem;
+}
