@@ -5,6 +5,8 @@ import SEO from "../components/seo"
 import hero from '../images/startup.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/layout"
+import Devsmall from "../components/devsmall"
+import Portsmall from "../components/portsmall"
 
 const mgjb = {
   borderRadius:0,
@@ -34,6 +36,8 @@ const IndexPage = () => (
         </Col>
       </Row>
     </Jumbotron>
+    <Devsmall/>
+    <Portsmall/>
   </Layout>
 )
 

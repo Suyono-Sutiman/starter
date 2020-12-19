@@ -20,6 +20,30 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
   text-align: center;
 }
+.btn {
+  font-size: min(max(14px, 4vw),16px);
+  font-weight: 300;
+}
+
+h1 {
+  font-size: min(max(32px, 4vw),48px);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: min(max(26px, 4vw),36px);
+  font-weight: 700;
+}
+
+h3 {
+  font-size: min(max(22px, 4vw),28px);
+  font-weight: 400;
+}
+
+h4 {
+  font-size: min(max(18px, 4vw),20px);
+  font-weight: 300;
+}
 
 .bgsatu {
   background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
@@ -31,10 +55,6 @@ body {
   text-align: left;
   justify-content: center;
   margin-bottom: 2rem;
-}
-p, .btn, a {
-  font-size: min(max(14px, 4vw),16px);
-  font-weight: 300;
 }
 .biru {
   background: #f8f9fa;
@@ -50,4 +70,9 @@ p, .btn, a {
 }
 .container {
   padding-top: 4rem;
+}
+.bgsc {
+  background-image: url(../images/pexels-jessica-lewis-583846.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
