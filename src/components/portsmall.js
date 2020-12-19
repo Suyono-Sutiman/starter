@@ -6,6 +6,7 @@ import bgp from '../images/Search.svg'
 function Portsmall() {
     return (
         <Jumbotron className='bgsc' >
+            <Jumbotron style={{background:'rgba(0, 0, 0, 0.8)', color:'white', borderRadius:'0'}} >
             <Row>
                 <Col lg={6}>
                     <Image src={bgp} fluid style={{maxWidth:'60%'}}/>
@@ -14,10 +15,11 @@ function Portsmall() {
                     <h4>Seperti apa contohnya?</h4>
                     <h2>Lihat Karya Kami</h2>
                     <Link to='/'>
-                    <h3>    | Portfolio {'>'} </h3>
+                    <h3 style={{color:'white'}} >    | Portfolio {'>'} </h3>
                     </Link>
                 </Col>
             </Row>
+            </Jumbotron>
         </Jumbotron>
     )
 }

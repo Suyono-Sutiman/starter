@@ -72,7 +72,9 @@ h4 {
   padding-top: 4rem;
 }
 .bgsc {
-  background-image: url(../images/pexels-jessica-lewis-583846.jpg);
+  background-image: url(../images/pexels-ovan-57690.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
