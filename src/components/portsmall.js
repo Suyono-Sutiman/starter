@@ -6,7 +6,7 @@ import bgp from '../images/Search.svg'
 function Portsmall() {
     return (
         <Jumbotron className='bgsc' >
-            <Jumbotron style={{background:'rgba(0, 0, 0, 0.8)', color:'white', borderRadius:'0'}} >
+            <Jumbotron style={{background:'rgba(0, 0, 0, 0.8)', color:'white', borderRadius:'0', marginBottom:'0'}} >
             <Row>
                 <Col lg={6}>
                     <Image src={bgp} fluid style={{maxWidth:'60%'}}/>

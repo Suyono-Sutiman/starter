@@ -14,8 +14,10 @@ function Devsmall () {
                     <Row style={{background:'#f8f9fa', margin:'2rem 0'}} >
                         <Col md={6} style={{textAlign:'left', alignSelf:'center', padding:'15px'}}>
                             <h3 style={{color:'#007bff'}} >Web Devlopment</h3>
-                            <p>Wujudkan ide anda menjadi media usaha powerful dengan bantuan team web development kami.</p>
-                            <p>Mulai dari Landing Page, Web Profil dan juga Web Produk, Realine menyediakan talenta yang anda butuhkan 
+                            <p>Wujudkan ide anda menjadi media usaha powerful dengan 
+                                bantuan team web development kami.</p>
+                            <p>Mulai dari Landing Page, Web Profil dan juga Web Produk, 
+                                Realine menyediakan talenta yang anda butuhkan 
                                 butuhkan.
                             </p>
                             <Link to='/'>
@@ -48,9 +50,9 @@ function Devsmall () {
                     <Row style={{background:'#f8f9fa', margin:'2rem 0'}} >
                         <Col md={6} style={{textAlign:'left', alignSelf:'center', padding:'15px'}}>
                             <h3 style={{color:'#007bff'}} >SEO</h3>
-                            <p>Wujudkan ide anda menjadi media usaha powerful dengan bantuan team web development kami.</p>
-                            <p>Mulai dari design sampai siap Go-Online, Realine menyediakan talenta yang anda butuhkan 
-                                untuk kebutuhan anda.
+                            <p>Maksimalkan potensi website Anda untuk mencapai halaman pertama di Google.</p>
+                            <p>Tim kami telah berpengalaman mengoptimasi berbagai macam keywords dalam 
+                                tingkat persaingan serta meningkatkan organic traffic.
                             </p>
                             <Link to='/'>
                                 <Button variant='primary' size='lg' >Selengkapnya</Button>

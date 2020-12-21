@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "../components/layout"
 import Devsmall from "../components/devsmall"
 import Portsmall from "../components/portsmall"
+import Sell from '../components/sell'
 
 const mgjb = {
   borderRadius:0,
@@ -38,6 +39,7 @@ const IndexPage = () => (
     </Jumbotron>
     <Devsmall/>
     <Portsmall/>
+    <Sell/>
   </Layout>
 )
 

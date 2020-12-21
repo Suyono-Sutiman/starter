@@ -77,4 +77,6 @@ h4 {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
+  padding: 0;
+  margin-bottom: 0;
 }

@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Head2 from '../components/head2'
 import "./layout.css"
+import Kontak from "./kontak";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,9 +25,8 @@ const Layout = ({ children }) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <Kontak/>
+          © {new Date().getFullYear()}, Realine.All Rights Reserved.
         </footer>
       </div>
     </>
