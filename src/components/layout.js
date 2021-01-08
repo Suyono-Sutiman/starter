@@ -1,34 +1,26 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Head2 from '../components/head2'
 import "./layout.css"
-import Kontak from "./kontak";
+import { Link } from "gatsby";
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Head2 siteTitle={data.site.siteMetadata?.title || `Title`} style={{marginBottom:'2rem'}}/>
-      <div>
-        <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
-        }}>
-          <Kontak/>
-          © {new Date().getFullYear()}, Realine.All Rights Reserved.
-        </footer>
-      </div>
+      <header>
+        <Link to='/design/'>
+          <h6 className='taut knb'>| design {">"}</h6>
+        </Link>
+          <h6 className='taut kra'>{"<"} contact |</h6>
+          <h6 className='taut kna'>| masterpiece {">"}</h6>
+        <Link to='/skill/'>
+          <h6 className='taut krb'>{"<"} skill set |</h6>
+        </Link>
+      </header>
+      <main>{children}</main>
+      <footer style={{textAlign:'center', position:'absolute', bottom:'0', left:'45vw'}}>
+        Suyono
+      </footer>
     </>
   )
 }
