@@ -18,8 +18,7 @@ const Layout = ({ children }) => {
         </Link>
       </header>
       <main>{children}</main>
-      <footer style={{textAlign:'center', position:'absolute', bottom:'0', left:'45vw'}}>
-        Suyono
+      <footer>
       </footer>
     </>
   )
