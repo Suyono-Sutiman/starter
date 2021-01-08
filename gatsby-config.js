@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Realine`,
-    description: `Realisasi mimpi bisnis online`,
+    title: `Suyono`,
+    description: `Front-End Developer & Web Designer`,
     author: `Suyono`,
   },
   plugins: [
@@ -18,10 +18,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Realisasi mimpi bisnis online`,
-        short_name: `Realine`,
+        name: `Suyono`,
+        short_name: `Suyono`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/realine.svg`, // This path is relative to the root of the site.
