@@ -8,7 +8,7 @@ import { Link } from 'gatsby'
 function Kontak(){
     return(
         <Layout>
-            <SEO title='Skill' description='HTML, CSS, Javascript, ReactJs, Boostrap, AdobeXd, NodeJs'/>
+            <SEO title='Contact'/>
         <Container fluid className='coo kon'>
             <Link to='/'>
             <ImHome className='ic1 scale-in-hor-left'/>
