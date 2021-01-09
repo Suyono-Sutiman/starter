@@ -11,7 +11,9 @@ const Layout = ({ children }) => {
         <Link to='/design/'>
           <h6 className='taut knb'>| design {">"}</h6>
         </Link>
+        <Link to='/contact/'>
           <h6 className='taut kra'>{"<"} contact |</h6>
+        </Link>
           <h6 className='taut kna'>| masterpiece {">"}</h6>
         <Link to='/skill/'>
           <h6 className='taut krb'>{"<"} skill set |</h6>

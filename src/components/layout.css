@@ -55,6 +55,7 @@ body {
 .ic1 {
   font-size: 60px;
   color: #007bff;
+  margin: 1rem;
 }
 .sk {
   flex-direction: column;
@@ -65,6 +66,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.kon {
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .scale-in-hor-left {
 	animation: scale-in-hor-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

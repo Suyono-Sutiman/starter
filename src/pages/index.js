@@ -1,5 +1,5 @@
 import React from "react"
-import {Col, Image, Row, Container} from 'react-bootstrap'
+import {Col, Image, Row, Container, Button} from 'react-bootstrap'
 import SEO from "../components/seo"
 import hero from '../images/yono.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,7 +19,11 @@ const IndexPage = () => (
           yang sangat bersemangat menciptakan User Interface, Animasi, dan 
           User Experience yang dinamis serta intuitif.
           </p>
-          <h6 style={{color:'#007bff', textTransform:'uppercase'}}>Ayo buat sesuatu yang istimewa.</h6>
+          <a href='https://wa.me/6281219013721'>
+            <Button variant='primary'>
+              AYO BUAT SESUATU YANG ISTIMEWA
+            </Button>
+          </a>
         </Col>
       </Row>
     </Container>
